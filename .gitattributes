@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.bin binary
+*.nro binary
+*.nso binary
+*.nca binary
+*.nsp binary
+*.xci binary
+
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf

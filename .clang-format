@@ -1,0 +1,21 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+ColumnLimit: 100
+DerivePointerAlignment: false
+IncludeBlocks: Regroup
+IndentWidth: 4
+IndentCaseLabels: false
+NamespaceIndentation: None
+PointerAlignment: Left
+SortIncludes: CaseSensitive
+Standard: c++20
+TabWidth: 4
+UseTab: Never

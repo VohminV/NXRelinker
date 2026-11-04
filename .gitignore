@@ -1,0 +1,63 @@
+# Build output
+/build/
+/build-*/
+/out/
+/dist/
+/.cache/
+/.cmake/
+compile_commands.json
+
+# Editor and IDE state
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# CMake / Ninja droppings
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Testing/
+CTestTestfile.cmake
+.ninja_deps
+.ninja_log
+
+# Nintendo Switch containers and executables
+*.nca
+*.nsp
+*.nsz
+*.xci
+*.xcz
+*.nro
+*.nso
+*.nacp
+
+# Cryptographic material: never commit keys
+prod.keys
+title.keys
+console.keys
+*.key
+/keys/
+
+# User data and dumps
+/dumps/
+/romfs/
+/exefs/
+/game_data/
+/private_data/
+*.sav
+*.save
+*.dump
+*.mem
+*.elf
+
+# Local logs and benchmark output
+/build-logs/
+/benchmark-results/
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
